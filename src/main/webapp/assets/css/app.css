@@ -1,0 +1,29 @@
+/* separa el contenido del navbar fijo */
+body { padding-top: 4.5rem; }
+
+/* utilidades */
+.table-actions { white-space: nowrap; }
+.required::after { content: " *"; color: #dc3545; }
+
+/* fondos por sección (se aplican con <c:set var="bodyClass" .../>) */
+.bg-hoteles {
+    background: linear-gradient(180deg, #eaf4ff 0%, #ffffff 60%);
+    min-height: 100vh;
+}
+.bg-habitaciones {
+    background: linear-gradient(180deg, #f7fff1 0%, #ffffff 60%);
+    min-height: 100vh;
+}
+.bg-reservas {
+    background: linear-gradient(180deg, #fff4ea 0%, #ffffff 60%);
+    min-height: 100vh;
+}
+
+/* pequeños toques */
+.card { transition: transform .08s ease-in-out; }
+.card:hover { transform: translateY(-1px); }
+
+.bg-usuarios{
+    background: linear-gradient(180deg, #eef2ff 0%, #ffffff 60%);
+    min-height: 100vh;
+}
